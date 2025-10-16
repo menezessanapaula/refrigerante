@@ -75,3 +75,18 @@
 .seta .proximo {
     right: 20px;
 }
+
+@keyframes toActive {
+    from {
+        opacity: 0;
+        top: 100%;
+    }
+}
+
+.item.active .title {
+    animation: toActive 0.5s ease-in-out 1;
+}
+
+.item.active .fruta {
+    animation: toActive 0.5s ease-in-out 1;
+}
